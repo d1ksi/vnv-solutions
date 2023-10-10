@@ -55,10 +55,10 @@ const Revievs = () => {
                   <div className='data-name'>
                      <div className='text'>
                         {r.client.split(' ').map((word, wordIndex) => (
-                           <>
+                           <div key={wordIndex}>
                               {wordIndex === 0 ? <p key={wordIndex}>{word}</p> : ' '}
                               {wordIndex > 0 ? <p>{word}</p> : null}
-                           </>
+                           </div>
                         ))}
                      </div>
                      <p>{r.data}</p>
@@ -73,7 +73,7 @@ const Revievs = () => {
                </motion.div>
             ))}
          </div>
-      </motion.section>
+      </motion.section >
    )
 }
 

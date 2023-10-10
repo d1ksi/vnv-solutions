@@ -1,6 +1,6 @@
 const OrderButton = () => {
    return (
-      <a href="#">
+      <a href="#contact">
          <button className="btn-90">
             <div className="blobs"></div>
             <span>Замовити</span>

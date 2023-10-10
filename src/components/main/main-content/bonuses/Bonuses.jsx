@@ -68,8 +68,8 @@ const Bonuses = () => {
          <div className='bonus'>
             <p>Можливі виграші:</p>
             <div className='div'>
-               {bonusOptions.map((b) => (
-                  <p className='choice'>"{b}"</p>
+               {bonusOptions.map((b, i) => (
+                  <p className='choice' key={i}>"{b}"</p>
                ))}
             </div>
          </div>

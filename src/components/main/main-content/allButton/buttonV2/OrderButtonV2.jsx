@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 
 const OrderButtonV2 = ({ label }) => {
    return (
-      <a href="#" className="animated-button1">
+      <a href="#contact" className="animated-button1">
          <span></span>
          <span></span>
          <span></span>
